@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Inline vs Block</title>
+</head>
+<body>
+   <h1>Hello world</h1> <!--paragraph is a Block Element -->
+   <h2>Apna College</h2>
+
+   <p>Hello world</p>
+   <p>Apna College</p> <!--paragraph is a Block Element -->
+
+<a href="www.google.com">Google Me</a>
+<a href="www.Facebook.com">Facebook</a> <!--ancher tag is always in inline element-->
+
+<img src="https://media.istockphoto.com/id/184276818/photo/red-apple.jpg?s=612x612&w=0&k=20&c=NvO-bLsG0DJ_7Ii8SSVoKLurzjmV0Qi4eGfn6nW3l5w=">
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7nz1C_5rV4mSRufXpiXDEq3stBNgK3LoMgw&s"><!--image is enline element -->
+
+<div> <!--div is a block level element-->
+   <a href="www.google.com">Google</a>
+   <a href="www.youtube.com">youtube</a>
+</div>
+   
+   <a href="www.facebook.com">Facebook</a>
+<span> <!--span is inline element-->
+   <a href="www.google.com">Google</a>
+   <a href="www.youtube.com">youtube</a>
+</span>
+   
+
+<p>This is my name Ankit prasad.</p>
+<p>I am wev development teacher</p>
+<hr />
+<p>i read in on Apna college.</p>
+<p>i love coding.</p>
+
+<h1>a<sup>2</sup></h1>
+<h1>H<sub>2</sub></h1>
+
+<h1>Pythagoras theorem says a<sup>2</sup>+ b<sup>2</sup> = c<sup>2</sup></h1>
+<h1>Formula for glucose is C<sub>6</sub>H<sub>12</sub>O<sub>6</sub></h1>
+
+<!--semantic markup tag examples -->
+<header>apna college <a href="www.apnacollege.in">go to main page</a></header>
+<main>This is my mane content</main><!--main content of website -->
+<footer>made with &hearts; </footer><!--we use this tag for end of the website-->
+<nav></nav><!--generally nav use for going into another page in website-->
+
+<!--
+<header>
+   <nav>
+      <ul>
+         <li><a href="/about.html">About us</a></li>
+         <li> contact us</li>
+      </ul>
+   </nav>
+</header>
+-->
+
+<p>apna &nbsp; &nbsp; college</p> <!--use for genrate space-->
+
+
+
+
+
+
+
+
+
+<table border = "black">
+   <caption>Food deepu</caption>
+   <!--table header-->
+   <thead>
+      <tr>
+         <th rowspan="2">
+            Item
+         </th>
+         <th colspan = "2">price</th>
+      </tr>
+      <tr>
+         <th>INR</th>
+         <th>USD</th>
+      </tr>
+   
+   </thead>
+   <!--table body-->
+   <tbody>
+      <tr>
+         <td>Frooti</td>
+         <td>10</td>
+         <td>0.14</td>
+      </tr>
+      <tr>
+         <td>Samosa</td>
+         <td>12</td>
+         <td>0.17</td>
+
+      </tr>
+      <tr>
+         <td>chips</td>
+         <td>20</td>
+         <td>0.28</td>
+      </tr>
+   </tbody>
+   
+</table>
+
+<table border="black">
+   <caption>A test table with merged cells</caption>
+
+   <thead>
+      <tr>
+<th rowspan="2"></th>
+<th colspan="2">Average</th>
+<th rowspan="2">Red eyes</th>
+      </tr>
+      <tr>
+         <th>height</th>
+         <th>Weight</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>Males</td>
+         <td>1.9</td>
+         <td>0.003</td>
+         <td>40%</td>
+      </tr>
+      <tr>
+         <td>Female</td>
+         <td>1.7</td>
+         <td>0.002</td>
+         <td>43%</td>
+      </tr>
+   </tbody>
+</table>
+
+
+<form action="/action">
+   <div>
+      <label for="username">usernamne :</label>
+      <input type="text" placeholder="Enter Name" id="username">
+   </div>
+   
+<div>
+   <label for="password"> password :</label>
+   <input type="password" placeholder="enter password" id="password">   
+</div>
+<div>
+   <label for="age"> Enter Age :</label>
+   <input type="number"placeholder="age" id="age">
+</div>
+<button>Submit</button>
+</form>
+
+<hr/>
+<form action="https://www.youtube.com/results">
+<input type="text" placeholder="search in youtube" name="search_query">
+<button>search</button>
+</form>
+
+<form action="https://www.google.com/search">
+<input type="text" placeholder="search in google" name="q">
+<button>search</button>
+</form>
+<br>
+<form action="/server">
+<input type="checkbox" id="age" name="age">
+<lable for="age">I am 18+</lable>
+<button>submit</button>
+<br>
+
+<div>
+   <input type="radio" name="fruit" id="apple" value="apple">
+   <label for="apple">apple</label>
+
+   <input type="radio" name="fruit" id="orange" value="orange">
+   <label for="orange">orange</label>
+   <input type="radio" name="fruit" id="Banana" value="Banana">
+   <label for="Banana">Banana</label>
+</div>
+<div>Choose proffession</div>
+<select name="profession" id="profession">
+   <option value="stu">Student</option>
+   <option>Devloper</option>
+</select>
+<div>
+   <label for="vol">Select your volume</label>
+   <input type="range" id="vol" min="0" max="100" name="vol">
+</div>
+</br>
+<label>please give your valuable feedback :</label>
+<textarea id="feedback" name="feedback" rows="5" cols="60"></textarea>
+
+
+
+</form>
+
+<h3>Registration Form</h3>
+<form action="/action">
+   <div>
+      <input input="text" placeholder="First Name" name="fname">
+      <input input="text" placeholder="last name" name="lname">
+   </div>
+   <div>
+      <lable for="gender">Please select gender :</lable>
+      <select name="gender" id="gender">
+   <option value="M">Male</option>
+   <option value="F">Female</option>
+   <option value="O">Others</option>
+      </select>
+   </div>
+   <div>
+      <lable for="tos_agree">Do you agree to all terms of services? <input type="checkbox" id="tos_agree" name="tos_agree"> Yes, I agree </lable>
+   
+   </div>
+   <button>Register</button>
+  
+</form>
+</body>
+</html>
